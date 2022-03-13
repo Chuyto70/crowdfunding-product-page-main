@@ -117,7 +117,8 @@ body {
     justify-content: space-between;
 }
 
-.principal-options__buttons button {
+.principal-options__buttons button,
+.principal-options__buttons input[type="button"] {
     font-family: 'Commissioner', sans-serif;
     height: 57px;
     border-radius: 57px;
@@ -588,6 +589,27 @@ input[type=number] {
     transform: scaleX(1);
 }
 
+#letsPay {
+    margin: 0;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    width: 150px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: var(--moderate-cyan);
+    cursor: pointer;
+}
+
+.radio-label,
+.radio-label0,
+.radio-label1,
+.radio-label2 {
+    position: absolute;
+    cursor: pointer;
+}
+
 
 /* Mobile*/
 
@@ -771,6 +793,15 @@ input[type=number] {
     }
     #letsPay {
         margin: 0;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        width: 150px;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        background-color: var(--moderate-cyan);
+        cursor: pointer;
     }
     .selected-container>span,
     .selected-container2>span {
