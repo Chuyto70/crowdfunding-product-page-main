@@ -414,7 +414,6 @@ progress::-webkit-progress-value {
     margin-bottom: 20px;
     border: 1px solid rgba(155, 155, 155, 0.5);
     border-radius: 10px;
-    cursor: pointer;
 }
 
 .pledge-selectable:has(input[type="radio"]) {
@@ -439,6 +438,7 @@ progress::-webkit-progress-value {
 
 .pledge-selectable__content>strong:hover {
     color: var(--moderate-cyan);
+    cursor: pointer;
 }
 
 .pledge-selectable strong {
